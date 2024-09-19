@@ -47,7 +47,7 @@ Hi, My name is **Shailendra Vishwakarma**, a software engineer enthusiast. This 
    ```
 3. Run the server:
    ```bash
-   npm start
+   node app.js
    ```
 
 Ensure you have Docker installed and running on your machine before executing the server.
