@@ -1,5 +1,5 @@
 
-# Compiler Backend
+# Code Nexus
 
 Hi, My name is **Shailendra Vishwakarma**, a software engineer enthusiast. This project is a backend system for compiling code in various languages using a Docker containerized environment.
 
@@ -39,7 +39,7 @@ Hi, My name is **Shailendra Vishwakarma**, a software engineer enthusiast. This 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-repository/compiler-backend.git
+   git clone https://github.com/Shailendra-vi/code-nexus
    ```
 2. Install dependencies:
    ```bash
@@ -47,7 +47,7 @@ Hi, My name is **Shailendra Vishwakarma**, a software engineer enthusiast. This 
    ```
 3. Run the server:
    ```bash
-   npm start
+   node app.js
    ```
 
 Ensure you have Docker installed and running on your machine before executing the server.
@@ -63,6 +63,9 @@ Ensure you have Docker installed and running on your machine before executing th
 ## Future Improvements
 
 - Add support for more languages.
+- Integrate NGINX for load balancing.
+- Redis for caching compilation results.
+- Kubernetes for better scalability and orchestration of containerized environments.
 - Optimize execution performance.
 
 ---

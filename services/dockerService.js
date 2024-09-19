@@ -42,9 +42,11 @@ const execPromise = (command) => {
     return new Promise((resolve, reject) => {
         exec(command, (error, stdout, stderr) => {
             if (error) {
-                reject({ status: "error", stderr: stderr || error });
+                reject({ status: "error", stderr: error });
+            } else if (stderr) {
+                reject({ status: "error", stderr: stderr });
             } else {
-                resolve({ status: "success", stdout: stdout.trim() });
+                resolve({ status: "success", stdout: stdout });
             }
         });
     });
