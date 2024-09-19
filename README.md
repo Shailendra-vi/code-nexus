@@ -63,6 +63,9 @@ Ensure you have Docker installed and running on your machine before executing th
 ## Future Improvements
 
 - Add support for more languages.
+- Integrate NGINX for load balancing.
+- Redis for caching compilation results.
+- Kubernetes for better scalability and orchestration of containerized environments.
 - Optimize execution performance.
 
 ---
