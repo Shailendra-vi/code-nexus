@@ -39,7 +39,7 @@ Hi, My name is **Shailendra Vishwakarma**, a software engineer enthusiast. This 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-repository/compiler-backend.git
+   git clone https://github.com/Shailendra-vi/code-nexus
    ```
 2. Install dependencies:
    ```bash
